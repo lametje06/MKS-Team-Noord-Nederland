@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Meldkamer - Noord Nederland
 // @namespace    http://tampermonkey.net/
-// @version      0.2.1
+// @version      0.2.2
 // @description  Een script voor het toepassen van de stijl van het team "Meldkamer - Noord Nederland"
 // @updateURL    https://github.com/lametje06/MKS-Team-Noord-Nederland/raw/main/Meldkamer%20-%20Noord%20Nederland.user.js
 // @downloadURL  https://github.com/lametje06/MKS-Team-Noord-Nederland/raw/main/Meldkamer%20-%20Noord%20Nederland.user.js
