@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Meldkamer - Noord Nederland
 // @namespace    http://tampermonkey.net/
-// @version      0.2.2
+// @version      0.2.3
 // @description  Een script voor het toepassen van de stijl van het team "Meldkamer - Noord Nederland"
 // @updateURL    https://github.com/lametje06/MKS-Team-Noord-Nederland/raw/main/Meldkamer%20-%20Noord%20Nederland.user.js
 // @downloadURL  https://github.com/lametje06/MKS-Team-Noord-Nederland/raw/main/Meldkamer%20-%20Noord%20Nederland.user.js
@@ -71,17 +71,17 @@ addGlobalStyle('html > body > div:first-of-type > nav > div:nth-of-type(2) > div
 addGlobalStyle('.mission_panel_red {border-left: 5px #D1132F solid !important}');
 addGlobalStyle('.navbar-nav > li > .dropdown-menu {background-color: #D1132F !important}');
 addGlobalStyle('#container_navbar_alarm {background-color: #D1132F !important}');
-addGlobalStyle('.alert-danger {background-image: linear-gradient(to bottom, #e96f6f 0, #d34a4a 100%) !important ; color: #FFFFFF !important}');
+addGlobalStyle('.alert-danger {background-image: linear-gradient(to bottom, #f3b2b299 0, #d57e7ea8 100%) !important ; color: #D1132F !important}');
 
 addGlobalStyle('.panel-default > .panel-heading {background-image: linear-gradient(to bottom, #e9e9e9 0, #e7e7e7 100%) }');
 addGlobalStyle('.progress-bar-danger {background-image: linear-gradient(to bottom, #d9534f 0, #D1132F 100%) !important}');
 
 
 // LSS manager kleuren
-addGlobalStyle('html > body > div:first-of-type > div:nth-of-type(4) > div:nth-of-type(6) > div:first-of-type > div > table > tbody > tr {color: #E74C3C !important}')
-addGlobalStyle('html > body > div:first-of-type > div:nth-of-type(4) > div:nth-of-type(6) > div:first-of-type > div > table > tbody > tr.overRequirement[data-v-20b2e2aa] {color: #0c0 !important}')
-addGlobalStyle('html > body > div:first-of-type > div:nth-of-type(4) > div:nth-of-type(6) > div:nth-of-type(2) > div > table > tbody > tr {color: #E74C3C !important}')
-addGlobalStyle('html > body > div:first-of-type > div:nth-of-type(4) > div:nth-of-type(6) > div:nth-of-type(2) > div > table > tbody > tr.overRequirement[data-v-20b2e2aa] {color: #0c0 !important}')
+//addGlobalStyle('html > body > div:first-of-type > div:nth-of-type(4) > div:nth-of-type(6) > div:first-of-type > div > table > tbody > tr {color: #E74C3C !important}')
+//addGlobalStyle('html > body > div:first-of-type > div:nth-of-type(4) > div:nth-of-type(6) > div:first-of-type > div > table > tbody > tr.overRequirement[data-v-20b2e2aa] {color: #0c0 !important}')
+//addGlobalStyle('html > body > div:first-of-type > div:nth-of-type(4) > div:nth-of-type(6) > div:nth-of-type(2) > div > table > tbody > tr {color: #E74C3C !important}')
+//addGlobalStyle('html > body > div:first-of-type > div:nth-of-type(4) > div:nth-of-type(6) > div:nth-of-type(2) > div > table > tbody > tr.overRequirement[data-v-20b2e2aa] {color: #0c0 !important}')
 
 window.setTimeout(function() {
     map.invalidateSize();
