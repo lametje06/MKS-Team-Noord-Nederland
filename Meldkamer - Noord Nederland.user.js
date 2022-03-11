@@ -19,7 +19,7 @@ var scriptVersie = GM_info.script.version;
 $("html > body > div:first-of-type > nav > div:nth-of-type(2) > div:first-of-type").append ( `
                 <a id="MKSNN" role="button" class="dropdown-toggle" onselectstart="return false" data-toggle="dropdown" aria-expanded="true">Meldkamer - Noord Nederland <b class="caret"></b></a>
                <ul class="dropdown-menu" role="menu" >
-                  <li class="unselectable"><a href="https://www.meldkamer.wesleylambeck.nl/" class="lightbox-open">Website</a></li>
+                  <li class="unselectable"><a href="https://www.meldkamer.wesleylambeck.nl/" class="lightbox-open">Team website</a></li>
                   <li class="unselectable"><a href="https://www.meldkamer.wesleylambeck.nl/index.php/realistische-locaties/" class="lightbox-open">Realistische locaties</a></li>
                   <li class="unselectable"><a href="https://discord.gg/U8DNh44" target="_blank">Join onze Discord!</a></li>
                   <li class="unselectable"><a href="https://github.com/lametje06/MKS-Team-Noord-Nederland/raw/main/Meldkamer%20-%20Noord%20Nederland.user.js">Versie ${scriptVersie}</a></li>
