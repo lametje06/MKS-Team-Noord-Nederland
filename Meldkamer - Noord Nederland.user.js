@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Meldkamer - Noord Nederland
 // @namespace    http://tampermonkey.net/
-// @version      0.2.5
+// @version      0.2.6
 // @description  Een script voor het toepassen van de stijl van het team "Meldkamer - Noord Nederland"
 // @updateURL    https://github.com/lametje06/MKS-Team-Noord-Nederland/raw/main/Meldkamer%20-%20Noord%20Nederland.user.js
 // @downloadURL  https://github.com/lametje06/MKS-Team-Noord-Nederland/raw/main/Meldkamer%20-%20Noord%20Nederland.user.js
@@ -27,6 +27,15 @@ $("html > body > div:first-of-type > nav > div:nth-of-type(2) > div:first-of-typ
 
 ` );
 
+// Functie voor sneltoets CTRL+SHIFT+S voor opslaan knoppen
+(function(){
+document.addEventListener('keydown', function(e) {
+  // pressed CTRL+SHIFT+S
+  if (e.keyCode == 83 && e.shiftKey && e.ctrlKey && !e.altKey && !e.metaKey) {
+   getElementByXpath("/html/body/div[1]/form/div[12]/input").click(); // go to google.
+  }
+}, false);
+})();
 
 function addGlobalStyle(css) {
     var head, style;
