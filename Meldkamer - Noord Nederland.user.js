@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         Meldkamer - Noord Nederland
 // @namespace    http://tampermonkey.net/
-// @version      0.2.6
+// @version      0.2.7
 // @description  Een script voor het toepassen van de stijl van het team "Meldkamer - Noord Nederland"
 // @updateURL    https://github.com/lametje06/MKS-Team-Noord-Nederland/raw/main/Meldkamer%20-%20Noord%20Nederland.user.js
 // @downloadURL  https://github.com/lametje06/MKS-Team-Noord-Nederland/raw/main/Meldkamer%20-%20Noord%20Nederland.user.js
 // @author       lametje06
+// @match        https://www.meldkamerspel.com/*
 // @include      /^https?:\/\/(?:w{3}\.)?(?:(policie\.)?operacni-stredisko\.cz|(politi\.)?alarmcentral-spil\.dk|(polizei\.)?leitstellenspiel\.de|missionchief\.gr|(?:(police\.)?missionchief-australia|(police\.)?missionchief|(poliisi\.)?hatakeskuspeli|missionchief-japan|missionchief-korea|(politiet\.)?nodsentralspillet|(politie\.)?meldkamerspel|operador193|jogo-operador112|jocdispecerat112|dispecerske-centrum|112-merkez|dyspetcher101-game)\.com|(police\.)?missionchief\.co\.uk|centro-de-mando\.es|centro-de-mando\.mx|(police\.)?operateur112\.fr|(polizia\.)?operatore112\.it|(policja\.)?operatorratunkowy\.pl|dispetcher112\.ru|(polis\.)?larmcentralen-spelet\.se)\/.*$/
 // @grant         GM_getValue
 // @grant         GM_setValue
@@ -53,6 +54,7 @@ addGlobalStyle('#map { height: 66vh !important}');
 addGlobalStyle('#patrolMap { height: 66vh !important}');
 addGlobalStyle('#missions_outer.col-sm-4 { width: 66.66666667% !important; }');
 addGlobalStyle('#missions-panel-body {height: 63vh !important}');
+addGlobalStyle('#missions {height: 66vh !important}');
 
 // Teamfoto
 addGlobalStyle('html > body > div:first-of-type > nav > div:nth-of-type(2) > div:first-of-type > a > img {content: url("http://meldkamer.wesleylambeck.nl/wp-content/uploads/2020/11/favicon.ico") !important ; float: left !important ; transform: scale(1.25); !important ; margin-top: 0px !important }');
@@ -72,6 +74,7 @@ addGlobalStyle('html > body > div:first-of-type > nav > div:nth-of-type(2) > div
 
 // Logo en teamnaam uitlijnen zodat deze goed naast elkaar staan
 addGlobalStyle('html > body > div:first-of-type > nav > div:nth-of-type(2) > div:first-of-type {align-items: center !important; justify-content: center !important; display: flex !important}');
+
 
 // Tekstkleur van link op teamnaam weghalen
 addGlobalStyle('html > body > div:first-of-type > nav > div:nth-of-type(2) > div:first-of-type > a:nth-of-type(2) {text-decoration: none !important; color: white !important;}');
