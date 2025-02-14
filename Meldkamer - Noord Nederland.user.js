@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Meldkamer - Noord Nederland
 // @namespace    http://tampermonkey.net/
-// @version      0.2.7
+// @version      0.2.8
 // @description  Een script voor het toepassen van de stijl van het team "Meldkamer - Noord Nederland"
 // @updateURL    https://github.com/lametje06/MKS-Team-Noord-Nederland/raw/main/Meldkamer%20-%20Noord%20Nederland.user.js
 // @downloadURL  https://github.com/lametje06/MKS-Team-Noord-Nederland/raw/main/Meldkamer%20-%20Noord%20Nederland.user.js
@@ -47,14 +47,6 @@ function addGlobalStyle(css) {
     style.innerHTML = css;
     head.appendChild(style);
 }
-
-// Posities van kaart en meldingenlijst
-addGlobalStyle('#map_outer.col-sm-8 { width: 33.33333333% !important; height: 66vh !important}');
-addGlobalStyle('#map { height: 66vh !important}');
-addGlobalStyle('#patrolMap { height: 66vh !important}');
-addGlobalStyle('#missions_outer.col-sm-4 { width: 66.66666667% !important; }');
-addGlobalStyle('#missions-panel-body {height: 63vh !important}');
-addGlobalStyle('#missions {height: 66vh !important}');
 
 // Teamfoto
 addGlobalStyle('html > body > div:first-of-type > nav > div:nth-of-type(2) > div:first-of-type > a > img {content: url("http://meldkamer.wesleylambeck.nl/wp-content/uploads/2020/11/favicon.ico") !important ; float: left !important ; transform: scale(1.25); !important ; margin-top: 0px !important }');
