@@ -1,6 +1,6 @@
 # 🚨 MKS-Team – Noord Nederland
 
-**Laatste update van deze handleiding:** 25-02-2026  
+**Laatste update van deze handleiding:** 26-02-2026  
 
 Beste leden van Meldkamer - Noord Nederland,
 
@@ -9,9 +9,10 @@ Voor ons team heb ik een script ontwikkeld dat volledig aansluit bij de huisstij
 Met dit script krijg je extra functionaliteiten zoals:
 
 - Een aangepast kaartformaat  
-- Overzicht van totale credits  
+- Overzicht van totale credits
+- Dagsamenvatting  
 - Credit labels per melding  
-- Instelbare labelkleuren  
+- Instelbare labelkleuren & lettergroottes  
 - Teamstijl in het menu en navigatie  
 
 Veel plezier!
@@ -73,6 +74,18 @@ Eigen meldingen | Eigen evenementen | Team meldingen | Totaal
 
 ---
 
+## 📋 Dagsamenvatting
+
+Toont boven het meldingenpaneel een overzicht met de dagsamenvatting bestaande uit het aantal voltooide meldingen, verdiende credits & uitgegeven credits per dag.
+
+### Werking:
+- Houdt bij hoeveel meldingen je voltooid hebt
+- Houdt bij hoeveel credits je verdiend & uitgegeven hebt
+- Wordt elke 10 seconden vernieuwd
+- Direct aan/uit te zetten via het menu
+
+---
+
 ## 🏷 Credit labels
 
 Toont bij iedere melding een label met de gemiddelde te verdienen credits.
@@ -103,6 +116,15 @@ Instelbare kleuren:
 
 ### Werking:
 - Alleen zichtbaar wanneer "Credit labels" is ingeschakeld
+
+---
+
+## 📏 Lettergrootte
+
+Instelbare lettergroottes voor:
+
+- Credits & dagsamenvatting
+- Credit labels
 
 ---
 
